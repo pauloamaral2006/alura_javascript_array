@@ -1,0 +1,10 @@
+const salaJS = ["Evaldo", "Camis", "Mari"];
+const salaPython = ["Ju", "Leo", "Raquel"];
+
+let salasunificadas = salaJS.concat(salaPython);
+
+console.log(salasunificadas);
+
+salasunificadas = salaPython.concat(salaJS);
+
+console.log(salasunificadas);
